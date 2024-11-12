@@ -1,0 +1,6 @@
+.catalog_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15%;
+    padding: 0% 10%;
+}
