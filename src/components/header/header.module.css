@@ -1,0 +1,39 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.header_elem_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.logo_wrap {
+    padding-left: 10px;
+}
+
+.logo {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.nav_wrap {
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_wrap {
+    justify-content: right;
+    padding-right: 20px;
+}
+
